@@ -1,0 +1,29 @@
+// This program calculates the total mass, in grams, and density, in grams per cubic centimeters
+// Evaluated
+
+#include <iostream>
+
+#include <conio.h>
+
+#include<string>
+
+using namespace std;
+
+int main()
+
+{
+
+double mass,density,volume;
+
+
+	cout<<"Enter mass";
+	cin>>mass;
+	cout<<"Enter density";
+	cin>>density;
+
+	volume = mass / density;
+	cout<<"Volume is"<<volume<<endl;
+	cin>>volume;
+	_getch ();
+	return 0;
+}
